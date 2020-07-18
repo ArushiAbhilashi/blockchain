@@ -1,0 +1,63 @@
+BLOCKCHAIN-ASSIGNMENT 1
+
+
+QUESTION 1: WHAT IS YOUR UNDERSTANDING OF BLOCKCHAIN?
+ANSWER: Blockchain is a mixture of technologies- distributed database and cryptography. Distributed database refers to replicating 
+same data in different computers over different places. This ensures that the data is there in other computers if one computer 
+loses its data or if its data gets tampered. Cryptography ensures the security of data. It’s a method of protecting information 
+using codes. The concept of blockchain came into existence when someone with a pseudo name of “Satoshi Nakamoto” published a white
+paper named “Bitcoin: a peer to peer electronic cash system”
+
+QUESTION 2: WHAT IS THE CORE PROBLEM BLOCKCHAIN TRYING TO SOLVE?
+ANSWER: The major issues with the internet are:
+a.	Authenticity
+b.	Security
+c.	Need of powerful third party for trust
+The current day internet is not authentic and is prone to identity thefts or hacking which forbids the users to trust its 
+authenticity and this call for an authentic technology-Blockchain. For example, few days ago, twitter accounts of many famous 
+people were hacked and money was being demanded by people. The data over the internet is not secure and is often vulnerable. 
+Internet doesn’t provide the security for our data.
+In the current world scenario, people need powerful third party for trust and they can’t trust people. For example, people trust
+Uber way than the cab driver; this signifies the importance of third party in our day to day lives. Blockchain removes this third
+party issues and makes people trust the community itself rather than any third party. The necessity which caused the invention 
+of blockchain was international banking crisis with collapse of investment in 2008.
+
+
+QUESTION 3:  WHAT ARE THE FEW FEATURES BLOCKCHAIN WILL GIVE YOU?
+ANSWER:  FIVE MAJOR FEATURES PROVIDED BY BLOCKCHAIN ARE:
+1.	No hacking
+2.	Huge security boost
+3.	Verifiable
+4.	Data Transparency
+5.	Decentralized
+6.	Immutable
+7.	Tamper proof
+8.	Unchangeable
+
+Blockchain makes sure that the data is safe and can’t be hacked at any level, thereby giving a huge security boost. Since data is
+stored at any computers, if changes are made in the data of one computer, it can be easily identified by checking the data of
+other computers. The fingerprint of data plays a major role in checking if the data is secure or not. Change in fingerprint
+indicates that the data has been tampered and the data gets replaced with the data stored in other computers. Since blockchain
+removes the need of third parties for trust, this makes data decentralized and trust is built in the community itself.
+Hence the data stored in blocks can’t be changed and hence ,is immutable.
+ 
+ 
+QUESTION 4: WHAT ALL THINGS DOES A BLOCK CONTAIN?
+ANSWER:  A Block contains:
+1.	Block number
+2.	Transaction records
+3.	Previous block signature
+4.	Mining key
+
+
+QUESTION 5: HOW IS THE VERIFIABILITY OF BLOCK CHAIN ATTAINED?
+ANSWER: Each data has a fingerprint (hash) associated with it. Same data has same fingerprint, if the data is changed even a bit,
+ the fingerprint gets changed and if the fingerprint doesn’t match with the fingerprint of data stored in other computers then 
+ it indicates that the data has been changes and need to be replaced with the data stored on other computers, hence verifiability
+ is attained.
+On all the blocks, if the data is added, then older fingerprint is stored plus the new data which generates a new key for the new
+block, hence the cycle of fingerprints continues. In order to describe it in an equation, we can write:
+A+B=C --- FIRST BLOCK (HERE VALUE OF A IS 0; AS A IS INITIAL DATA AND B IS DATA ADDED)
+C+D=F---SECOND BLOCK (OLDER DATA-C +NEW DATA D)
+Each time new data generates a new fingerprint which is same for every computer which stores same data for security purposes and
+this helps in the verification of data to ensure that data is safe and no new changes have been made
